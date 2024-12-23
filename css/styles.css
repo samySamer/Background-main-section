@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    --custom-orange:#f93738;
+    --custom-dark-orange:#641616;
+}
+body{
+    width: 1200px;
+    max-width: 100%;
+    margin:0 auto;
+    background: url(../img/wallpaperflare.com_wallpaper.jpg);
+    background-size:cover;
+    font-family: sans-serif;
+
+}
+.header h1{
+    color:white;
+    font-weight: 400;
+    font-family: serif;
+    text-align: center;
+    margin-top:128px;
+    font-size: 96px;
+}
+.header{
+    margin-bottom: 24px;
+}
+.text p{
+    color:rgba(255,255,255,0.6);
+    font-size:24px;
+    font-weight: normal;
+}
+.text{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.btn{
+    text-align: center;
+    background-color: var(--custom-orange);
+    padding:20px 25px;
+    width:225px;
+    margin:0 auto;
+    cursor: pointer;
+}
+.btn:hover{
+    transition: all 0.3s;
+    background-color: var(--custom-dark-orange);
+}
+.btn a{
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+}
+main{
+    margin-bottom: 150px;
+}
+.icon{
+    float: right;
+}
+.basic{
+    width: 32.5%;
+    margin:0 auto;
+    border:1px solid rgba(255,255,255, 0.1);
+    background-color: rgba(0,0,0, 0.2);
+    padding: 10px;
+    color:white;
+    padding: 25px;
+    border-radius: 7px;
+}
+h3{
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.text-basic p{
+    margin-bottom: 24px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size:18px;
+}
+.icon i{
+    color:var(--custom-orange);
+    font-size: 24px;
+}
+.one{
+    float: right;
+}
+.two{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.three{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+section{
+    position: relative;
+    margin: 0 auto;
+}
+.guide{
+    color:white;
+    text-decoration-color: var(--custom-orange);
+    text-underline-offset: 5px;
+    font-size:18px;
+    text-decoration-thickness: 2px;
+}
